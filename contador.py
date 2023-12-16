@@ -1,19 +1,19 @@
-print('Hello, seja bem-vindo ao melhor contador de convidados para sua festa! \n')
+print('Hello, welcome to the best guest counter for your party! \n')
 
-print('Eu sou um robo desenvolvido em Python e vou lhe ajudar, primeiro me informe quantas pessoas voce quer convidar \n')
+print('I am a Python-developed robot, and I will help you. First, tell me how many people you want to invite \n')
 
-x = int(input('Digite o numero de convidados:'))
+x = int(input('Enter the number of guests:'))
 y = []
 
 i = 1
 
 while i <= int(x):
-    nome_do_convidado = input('Digite o nome do convidado #' + str(i) + ':')
-    y.append(nome_do_convidado)
+    guest_name = input('Enter the name of guest #' + str(i) + ':')
+    y.append(guest_name)
     i += 1
 
-print('Serao', x, 'convidados!')
+print('There will be', x, 'guests!')
 
-print('\nLista de convidados')
-for convidado in y:
-    print(convidado)
+print('\nGuest list')
+for guest in y:
+    print(guest)
